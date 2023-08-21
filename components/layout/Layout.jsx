@@ -15,9 +15,9 @@ function Layout({ children }) {
       </header>
       <div className={styles.container}>{children}</div>
       <footer className={styles.footer}>
-        <a href="/"  rel="noreferrer">
+        <Link href="/"  rel="noreferrer">
           FoodMarkt 
-        </a>
+        </Link>
          Sohrabi | Project &copy;
       </footer>
     </>
